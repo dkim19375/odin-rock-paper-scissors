@@ -36,5 +36,3 @@ function game() {
     }
 
 }
-
-game();
