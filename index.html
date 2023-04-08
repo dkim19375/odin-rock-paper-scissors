@@ -8,20 +8,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
               rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
-        <script src="./rock-paper-scissors.js"></script>
+        <script src="./rock-paper-scissors.js" defer></script>
     </head>
     <body>
         <h1>Rock Paper Scissors</h1>
         <section id="selections-section">
             <div id="player-selections">
                 <h2>Make Your Move:</h2>
-                <button id="rock-button" class="player-selection">Rock</button>
-                <button id="paper-button" class="player-selection">Paper</button>
-                <button id="scissors-button" class="player-selection">Scissors</button>
+                <button class="player-selection">Rock</button>
+                <button class="player-selection">Paper</button>
+                <button class="player-selection">Scissors</button>
             </div>
-            <div id="computer-selection-container">
-                <h2 id="computer-selection-header">Computer's Move:</h2>
-                <div id="computer-selection-text">???</div>
+            <div id="right-section">
+                <div id="computer-selection-container">
+                    <h2 id="computer-selection-header">Computer's Move:</h2>
+                    <div id="computer-selection-text">???</div>
+                </div>
+                <div id="points">
+                    <div id="point-count">Points: 0</div>
+                    <div id="win-rate">Win : 0</div>
+                </div>
             </div>
         </section>
         <!--<h2 id="result">Result: ???</h2>-->
